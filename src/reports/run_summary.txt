@@ -1,0 +1,32 @@
+Model Run Summary
+Config
+Train path: /Users/matilda/Documents/Project/ML/heart_disease/data/train.csv
+Test size (val split): 0.2
+Random state: 42
+Threshold: 0.4
+
+Model Selection (Validation Metrics)
+model              roc_auc  precision     recall         f1
+logreg              0.9537     0.8553     0.8935     0.8740
+random_forest       0.9477     0.8411     0.8945     0.8670
+
+Selected Best Model (by Validation ROC-AUC)
+Selected model: logreg
+Validation ROC-AUC: 0.9537
+Precision: 0.8553
+Recall: 0.8935
+F1: 0.8740
+Confusion Matrix:
+[[60971  8538]
+ [ 6019 50472]]
+
+ 5-Fold Cross-Validation (mean ± std)
+roc_auc: 0.9529 ± 0.0004
+precision: 0.8818 ± 0.0005
+recall: 0.8599 ± 0.0020
+f1: 0.8707 ± 0.0012
+
+Final Training & Artifacts
+Final model: retrained on full training data (train+val)
+Model saved to: /Users/matilda/Documents/Project/ML/heart_disease/src/models/logreg_pipeline.pkl
+Summary saved to: /Users/matilda/Documents/Project/ML/heart_disease/src/reports/run_summary.txt
