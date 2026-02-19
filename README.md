@@ -212,15 +212,6 @@ This project demonstrates:
 
 ---
 
-## 💼 Portfolio / Resume Description (Use This)
-
-**Heart Disease Prediction ML System**
-Built an end-to-end machine learning pipeline using 630k+ clinical records to predict heart disease risk.
-Performed EDA, feature engineering, model comparison, and cross-validation, achieving ROC-AUC 0.95.
-Designed modular production-style workflow with reusable preprocessing pipeline, automated evaluation, and artifact generation.
-
----
-
 ## 🚀 Future Improvements
 
 * Add XGBoost / LightGBM models
